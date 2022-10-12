@@ -1,0 +1,173 @@
+
+.icono-menu{
+    
+    display: none;
+
+}
+.menu-mobile{
+    display: none;
+}
+
+/*menu para escritorio*/
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.WebLinks{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.Auth{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 2%;
+}
+.TryForFree{
+    color: blue;
+}
+.Line{
+    background-color: gray;
+    opacity: 0.2;
+    height: 1px;
+    width: 100%;
+}
+.SubMenu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 22%;
+    
+
+}
+.TextoSobrepuesto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+.TextoAbleton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff764d;
+    font-size: 11vw;
+}
+.Study{
+    width: 80%;
+}
+.ParagraphBlock{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+    width: 48vw;
+    margin: auto;
+    margin-top: 8%;
+    
+    
+
+}
+.Block1{
+    font-weight: bold;
+    
+    font-family: 'futura-pt', sans-serif;
+    text-align: justify;
+    font-size: 22px;
+    
+}
+.Block2{
+    font-family: 'futura-pt';
+    font-weight: normal;
+    
+    text-align: justify;
+    font-size: 22px;
+   
+    
+
+}
+.Blue{
+    color: #0000ff;
+}
+.Salmon{
+    color: #ff764d;
+}
+
+.VideoParent{
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   margin-top: 10vw;
+   justify-content: space-around;
+   
+}
+.Video1{
+    background-color: grey;
+}
+/* diseños de footer*/
+.GridContainer{
+    margin-top:20vw;
+    display: grid;
+   
+    margin-left: 5vw;
+    width: 90vw;;
+    
+    grid-template-columns: 30% 30% 40%;
+}
+.branding{
+    margin-left: 37px;
+    grid-column: 1/4;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+}
+.input-email{
+    background-color: rgba(224, 219, 219, 0.733);
+    width: 20vw;
+    height: 2.34vw;
+    font-size: 15px;
+    padding-left: 2.5%;
+    border: none;
+}
+.button-email{
+    margin-left: -4px;
+    height: 2.5vw;
+    width: 7vw;
+    background-color: #0000ff;
+    color: aliceblue;
+    border: none;
+
+}
+.lastbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    grid-column: 1/4;
+}
+.settings{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 50%;
+}

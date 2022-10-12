@@ -1,0 +1,74 @@
+
+@media(max-width:768px){
+    .menu-desktop{
+        display: none;
+    }
+    .icono-menu{
+        display: inline-block;
+        width: 9vw;
+        height: 9vw;
+        margin-left: 40%;
+        margin-bottom: 10vw;
+        color: #ff764d;
+        font-size: 26px;
+        
+    }
+    .menu-mobile{
+        background-color: #0000ff;
+        width: 100vw;
+        color: aliceblue;
+        font-family: 'Roboto';
+        font-size: 2.6vw;
+        
+       
+        
+    }
+    .active{
+        transition: all 2s ease;
+        
+    }
+    .ParagraphBlock{
+        width: 86vw;
+    }
+    .TryForFree{
+        color:#ff764d;
+    }
+    .Block1{
+       font-size: 20px;
+    }
+    .Block2{
+       font-size: 20px;
+       
+    }
+    .GridContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-email{
+     
+        width: 45vw;
+        height: 20%;
+ 
+    }
+    .button-email{
+       
+        height: 20%;
+        width: 34%;
+    }
+    .lastbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        grid-column: 1/4;
+    }
+    .settings{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: space-between;
+        width: 50%;
+    }
+   
+    
+}

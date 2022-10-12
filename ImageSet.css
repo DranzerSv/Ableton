@@ -1,0 +1,131 @@
+.ImageSet1{
+    position: relative;
+    display: inline-block;
+    width: 90vw;
+    height: 55vw;
+    margin-left: 5%;
+}
+.BgColor{
+    margin-left: 40vw;
+    width: 70vw;
+    height: 55vw;
+    background-color: #fbffa7;
+    position: absolute;
+
+}
+.WalkingWoman{
+    position: absolute;
+    right: 8vw;
+    top: 20vw;
+    width: 32vw;
+
+    
+}
+.EditingAudio{
+    position: absolute;
+    width: 37vw;;
+    left: 5vw;
+    top:6%;
+}
+
+.ImageSet2{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 55vw;
+    margin-left: 5%;
+    margin-bottom:20%;
+    margin-top: 10%;
+}
+.BgColor2{
+    margin-left: -10vw;
+    width: 63vw;
+    height: 73vw;
+    background-color: #b6ffc0;
+    position: absolute;
+
+}
+.Explaining{
+    position: absolute;
+    left: 8vw;
+    top: 10vw;
+    width: 32vw;
+
+    
+}
+.Console{
+    position: absolute;
+    width: 32vw;;
+    left: 8vw;
+    margin-top:45vw;
+}
+.Working{
+    position: absolute;
+    width: 32vw;;
+    right: 19vw;
+    margin-top:15vw;
+}
+.ImageSet3{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 55vw;
+    margin-left: 5%;
+    
+    margin-top: 10%;
+}
+.BgColor3{
+    margin-left:16.6667vw;
+    width: 60vw;
+    height: 50vw;
+    background-color: #d5b3ff;
+    position: absolute;
+
+}
+.Meeting1{
+    position: absolute;
+    width: 35vw;
+    top: 14vw;
+}
+.Meeting2{
+    position: absolute;
+    width: 50vw;
+    top: 11vw;
+    right: 5vw;
+}
+.ImageSet4{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 55vw;
+    
+    
+   
+}
+.BgColor4{
+    margin-top: 10vw;;
+    margin-left:50vw;
+    width: 40vw;
+    height: 40vw;
+    background-color: #b1c5ff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Phrase{
+    width: 30vw;
+    margin: auto;
+    font-weight: bold;
+    font-size: 2.4vw;
+}
+.Cafeteria{
+    position: absolute;
+    width: 38vw;
+    top: 10vw;
+    left: 13vw;
+}
+.boldi{
+    font-weight:bold;
+    
+}
