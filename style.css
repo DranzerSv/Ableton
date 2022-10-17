@@ -4,6 +4,9 @@
     display: none;
 
 }
+.menu-mobile{
+    display: none;
+}
 
 
 /*menu para escritorio*/
@@ -89,6 +92,7 @@ nav{
     font-family: 'futura-pt', sans-serif;
     text-align: justify;
     font-size: 22px;
+    z-index: -2;
     
 }
 .Block2{
@@ -97,6 +101,7 @@ nav{
     
     text-align: justify;
     font-size: 22px;
+    z-index: -2;
    
     
 
@@ -118,6 +123,8 @@ nav{
 }
 .Video1{
     background-color: grey;
+    overflow: hidden;
+    z-index: -2;
 }
 /* diseños de footer*/
 .GridContainer{

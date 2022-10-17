@@ -1,4 +1,16 @@
 
+@media(max-width:425px){
+    .menu-mobile-section{
+        font-size: 5vw;
+    }
+
+}
+@media (min-width:768px){
+    .menu-mobile-section{
+        font-size: 2.5vw;
+    }
+    
+}
 @media(max-width:768px){
     .menu-desktop{
         display: none;
@@ -14,21 +26,37 @@
         
     }
     .menu-mobile{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         background-color: #0000ff;
         width: 100vw;
+        height: 170%;
         color: aliceblue;
         font-family: 'Roboto';
-        font-size: 2.6vw;
-        transition: all 2s;
+   
+        transition: all 700ms;
         position: absolute;
-        top: -25%;
+        overflow: hidden;
+        top:0;
+        left: 0;
         z-index: -1;
+        font-size: 3vw;
+        padding-top: 10%;
        
         
     }
-    .active{
-        transform: translateY(200%);
-        transition: 2s;
+    .menu-mobile-section{
+        height: 100%;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .hide{
+        transform: translateY(-105%);
+        transition: 700ms;
         
     }
     .ParagraphBlock{
@@ -43,6 +71,10 @@
     .Block2{
        font-size: 20px;
        
+    }
+    .Video1{
+        width: 90vw;
+        height: 60vw;
     }
     .GridContainer{
         display: flex;

@@ -4,6 +4,8 @@
     width: 90vw;
     height: 55vw;
     margin-left: 5%;
+    overflow: hidden;
+    z-index: -2;
 }
 .BgColor{
     margin-left: 40vw;
@@ -98,6 +100,7 @@
     display: inline-block;
     width: 100vw;
     height: 55vw;
+    overflow: hidden;
     
     
    
