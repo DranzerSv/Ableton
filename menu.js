@@ -5,15 +5,7 @@ let mostrando = false
 
 
 function alternar(){
-    if(mostrando==false){
-        menuMobile.style.display="inline-block"
-        
-        mostrando=true
-    }else{
-        menuMobile.style.display="none"
-        mostrando=false
 
-    }
     menuMobile.classList.toggle('active')
 
 }

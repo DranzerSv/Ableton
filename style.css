@@ -4,9 +4,7 @@
     display: none;
 
 }
-.menu-mobile{
-    display: none;
-}
+
 
 /*menu para escritorio*/
 nav{
@@ -56,6 +54,7 @@ nav{
     position: relative;
     display: inline-block;
     text-align: center;
+    z-index: -2;
     
 }
 
@@ -70,6 +69,7 @@ nav{
 }
 .Study{
     width: 80%;
+
 }
 .ParagraphBlock{
     display: flex;

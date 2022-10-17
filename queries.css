@@ -19,12 +19,16 @@
         color: aliceblue;
         font-family: 'Roboto';
         font-size: 2.6vw;
-        
+        transition: all 2s;
+        position: absolute;
+        top: -25%;
+        z-index: -1;
        
         
     }
     .active{
-        transition: all 2s ease;
+        transform: translateY(200%);
+        transition: 2s;
         
     }
     .ParagraphBlock{
