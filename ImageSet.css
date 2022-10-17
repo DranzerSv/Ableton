@@ -127,8 +127,44 @@
     width: 38vw;
     top: 10vw;
     left: 13vw;
+    z-index: 1;
 }
 .boldi{
     font-weight:bold;
     
+}
+@media (max-width:768px) {
+    .ImageSet4{
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        
+
+    }
+    .BgColor4{
+        width: 90vw;
+        height: 90vw;
+        position: relative;
+        margin-left: 5%;
+
+    }
+    .Phrase{
+        
+        font-size: 6vw;
+        position: relative;
+        width: 85%;
+
+    }
+    .Cafeteria{
+        position: relative;
+        width: 85vw;
+        height: 90vw;
+        left: 5%;
+       
+
+    }
+    .boldi{
+        font-weight:bold;
+        
+    }
 }

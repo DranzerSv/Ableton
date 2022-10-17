@@ -9,6 +9,12 @@ function alternar(){
 
     menuMobile.classList.toggle('hide')
 
+    if(icono.innerHTML=="Menu+"){
+        icono.innerHTML="Menu-"
+    }else{
+        icono.innerHTML="Menu+"
+    }
+
 }
 function ocultar(){
     if(window.innerWidth > 1024){
